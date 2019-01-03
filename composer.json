@@ -1,0 +1,23 @@
+{
+    "name": "mickeyto/curl",
+    "type": "library",
+    "description": "curl",
+    "keywords": ["curl"],
+    "homepage": "https://github.com/Mickeyto/curl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "QM",
+            "email": "huangmickeydev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mickeyto\\Curl\\": "src/"
+        }
+    }
+}
